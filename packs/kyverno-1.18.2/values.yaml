@@ -13,13 +13,7 @@ pack:
 
 charts:
   kyverno:
-    # -- Internal settings used with `helm template` to generate install manifest
-    # @ignored
-    templating:
-      enabled: false
-      debug: false
-      version: ~
-
+  
     global:
 
       image:
